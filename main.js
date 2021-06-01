@@ -1,6 +1,5 @@
 import './style.css'
+import 'virtual:windi.css'
+import darkMode from './js/dark-mode';
 
-document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+darkMode();

@@ -1,0 +1,13 @@
+:root {
+    --black: #1a1a1a;
+    --white: #eff5f4;
+    --teal: #43dbb2;
+    --teal-dark: #1f2e2a;
+    --red: #ff476f;
+}
+  
+.dark {
+    --bg: var(--black);
+    --text: var(--white);
+    --accent: var(--teal);
+}
