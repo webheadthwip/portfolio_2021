@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Share Tech Mono;
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/ShareTechMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Routed Gothic;
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/routed-gothic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Office Code Pro;
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/OfficeCodePro-Regular.woff2') format('woff2'),
+        url('./assets/fonts/OfficeCodePro-Regular.woff') format('woff'),
+        url('./assets/fonts/OfficeCodePro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Office Code Pro;
+    font-style: normal;
+    font-weight: 500;
+    src: url('./assets/fonts/OfficeCodePro-Medium.woff2') format('woff2'),
+        url('./assets/fonts/OfficeCodePro-Medium.woff') format('woff'),
+        url('./assets/fonts/OfficeCodePro-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Office Code Pro;
+    font-style: italic;
+    font-weight: 500;
+    src: url('./assets/fonts/OfficeCodePro-MediumItalic.woff2') format('woff2'),
+        url('./assets/fonts/OfficeCodePro-MediumItalic.woff') format('woff'),
+        url('./assets/fonts/OfficeCodePro-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Office Code Pro;
+    font-style: normal;
+    font-weight: 700;
+    src: url('./assets/fonts/OfficeCodePro-Bold.woff2') format('woff2'),
+        url('./assets/fonts/OfficeCodePro-Bold.woff') format('woff'),
+        url('./assets/fonts/OfficeCodePro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Office Code Pro;
+    font-style: italic;
+    font-weight: 700;
+    src: url('./assets/fonts/OfficeCodePro-BoldItalic.woff2') format('woff2'),
+        url('./assets/fonts/OfficeCodePro-BoldItalic.woff') format('woff'),
+        url('./assets/fonts/OfficeCodePro-BoldItalic.ttf') format('truetype');
+}
+
+@supports (font-variation-settings: 'wdth' 200) {
+    @font-face {
+        font-family: Public Sans;
+        src: url('./assets/fonts/PublicSans-VariableFont_wght.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    #font-public-sans {
+        font-family: Public Sans;
+        font-variation-settings: normal;
+    }
+}
