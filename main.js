@@ -1,5 +1,5 @@
 import 'virtual:windi.css'
-import './style.css'
+import './styles/styles.scss'
 import darkMode from './js/dark-mode';
 
 darkMode();

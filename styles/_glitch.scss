@@ -6,7 +6,7 @@
 
 .glitch::before,
 .glitch::after {
-    color: white;
+    color: inherit;
     content: attr(data-text);
     position: absolute;
     overflow: hidden;
