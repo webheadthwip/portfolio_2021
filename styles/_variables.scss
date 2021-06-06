@@ -1,13 +1,19 @@
 :root {
     --black: #1a1a1a;
     --white: #eff5f4;
-    --teal: #43dbb2;
-    --teal-dark: #1f2e2a;
+    --teal-light: #ebfffa;
+    --teal: rgb(67, 219, 178);
+    --teal-dark: #46685f;
     --red: #ff476f;
+
+    --bg: var(--white);
+    --text: var(--black);
+    --accent: var(--teal);
 }
-  
+
 .dark {
     --bg: var(--black);
     --text: var(--white);
     --accent: var(--teal);
+    --accent-dark: var(--teal-dark)
 }

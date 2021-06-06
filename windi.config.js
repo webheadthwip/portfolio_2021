@@ -17,17 +17,18 @@ export default defineConfig({
       'lg': '1.125rem',
       'xl': '1.25rem',
       '2xl': '1.5rem',
-      '3xl': '2.875rem',
-      '4xl': '2.25rem',
+      '3xl': '2.25rem',
+      '4xl': '2.875rem',
     },
       colors: {
       black: '#1a1a1a',
       white: '#eff5f4',
       teal: {
+        light: '#ebfffa',
         DEFAULT: '#43dbb2',
-        dark: '#1f2e2a',
+        dark: '#46685f',
       },
       red: '#ff476f',
-    }
+    },
   }
 })
