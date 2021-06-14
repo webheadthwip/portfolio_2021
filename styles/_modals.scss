@@ -1,0 +1,106 @@
+@use 'variables' as *;
+@use 'mixins' as mixins;
+@use "sass:color";
+
+.fui-modal {
+    // background-color: $primary;
+
+    &__background {
+        display: none;
+    }
+
+    &__content {
+        // transition: all 2s ease-in-out; 
+        animation-name: zoomIn; 
+        // visibility: hidden;
+        // background: none;
+    }
+
+    .close {
+        float: right;
+    }
+}
+
+.fui-modal__background.open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg);
+    background-image: linear-gradient(
+                transparent 21px,
+                rgba(220, 220, 200, 0.1) 22px,
+                transparent 22px
+            ),
+            linear-gradient(
+                90deg,
+                transparent 21px,
+                rgba(220, 220, 200, 0.1) 22px,
+                transparent 22px
+            );
+    background-size: 100% 60px, 60px 100%;
+
+    .fui-modal {
+        // animation-name: heightScale;
+        // animation-delay: 500ms;
+        // animation-fill-mode: both;
+        // animation-duration: 3s;
+        // max-height: 0;
+    }
+
+    .fui-modal__content {
+        animation-name: fadeIn;
+        animation-fill-mode: both;
+        animation-duration: 50ms;
+    }
+
+}
+
+.modal-border--top {
+    border-top: 4px solid var(--accent);
+    padding-top: 15px;
+}
+
+.modal-md{
+    width: 600px;
+}
+
+@keyframes heightScale {
+    from {
+        max-height: 0;
+    }
+    
+    to {
+        max-height: 100vh;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  .zoomIn {
+    animation-name: zoomIn;
+    animation-duration: 250ms;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
