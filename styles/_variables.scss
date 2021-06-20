@@ -6,9 +6,10 @@
     --teal-dark: #45685f;
     --red: #ff476f;
 
-    --bg: var(--white);
-    --text: var(--black);
+    --bg: var(--black);
+    --text: var(--white);
     --accent: var(--teal);
+    --accent-dark: var(--teal-dark)
 }
 
 .dark {

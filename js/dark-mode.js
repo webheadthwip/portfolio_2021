@@ -18,6 +18,7 @@ export default function darkMode() {
         disableDarkMode();
     }
 
+    if(darkModeToggle){
     darkModeToggle.addEventListener('click', () => {
         darkMode = localStorage.getItem('darkMode');
         if (darkMode !== 'enabled') {
@@ -25,5 +26,5 @@ export default function darkMode() {
         } else {
             disableDarkMode();
         }
-    });
+    });}
 }
