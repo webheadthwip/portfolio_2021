@@ -1,5 +1,25 @@
-import 'virtual:windi.css'
-import './styles/styles.scss'
+import 'virtual:windi.css';
+import './assets/fonts/OfficeCodePro-Bold.ttf';
+import './assets/fonts/OfficeCodePro-Bold.woff';
+import './assets/fonts/OfficeCodePro-Bold.woff2';
+import './assets/fonts/OfficeCodePro-BoldItalic.ttf';
+import './assets/fonts/OfficeCodePro-BoldItalic.woff';
+import './assets/fonts/OfficeCodePro-BoldItalic.woff2';
+import './assets/fonts/OfficeCodePro-Medium.ttf';
+import './assets/fonts/OfficeCodePro-Medium.woff';
+import './assets/fonts/OfficeCodePro-Medium.woff2';
+import './assets/fonts/OfficeCodePro-MediumItalic.ttf';
+import './assets/fonts/OfficeCodePro-MediumItalic.woff';
+import './assets/fonts/OfficeCodePro-MediumItalic.woff2';
+import './assets/fonts/OfficeCodePro-Regular.ttf';
+import './assets/fonts/OfficeCodePro-Regular.woff';
+import './assets/fonts/OfficeCodePro-Regular.woff2';
+import './assets/fonts/OfficeCodePro-RegularItalic.ttf';
+import './assets/fonts/OfficeCodePro-RegularItalic.woff';
+import './assets/fonts/OfficeCodePro-RegularItalic.woff2';
+import './assets/fonts/PublicSans-Italic-VariableFont_wght.ttf';
+import './assets/fonts/PublicSans-VariableFont_wght.ttf';
+import './styles/styles.scss';
 import modal from './js/modals';
 
 modal();
